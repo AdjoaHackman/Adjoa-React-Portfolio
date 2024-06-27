@@ -1,6 +1,7 @@
 import ReactDOM from 'react-dom/client';
 import App from './App.jsx';
 import AboutMe from './pages/AboutMe.jsx';
+import ContactMe from './pages/ContactMe.jsx';
 import Portfolio from './pages/Portfolio.jsx';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
         path: 'portfolio',
         element: <Portfolio />,
       },
+      {
+        path: 'contact',
+        element: <ContactMe/>,
+      }
     ],
   },
 ]);
