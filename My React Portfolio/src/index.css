@@ -1,25 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:ital,wght@0,300..700;1,300..700&display=swap');
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --floral-white: #fffcf2ff;
+  --timberwolf: #ccc5b9ff;
+  --black-olive: #403d39ff;
+  --eerie-black: #252422ff;
+  --flame: #eb5e28ff;
   line-height: 1.5;
   font-weight: 400;
+}
 
-  /* color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424; */
+body {
+  font-family: 'Spline Sans Mono';
+}
 
-  /* CSS HEX */
-  --floral-white: #fff8f0ff;
-  --bright-pink-crayola: #ff5964ff;
-  --argentinian-blue: #35a7ffff;
-  --wenge: #56494eff;
-  --chocolate-cosmos: #511c29ff;
+/* :root {
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-}
+} */
 
 a {
   font-weight: 500;

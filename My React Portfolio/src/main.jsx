@@ -6,6 +6,7 @@ import Resume from './pages/Resume.jsx';
 import Portfolio from './pages/Portfolio.jsx';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './components/Form/styles.css';
 
 const router = createBrowserRouter([
   {

@@ -1,10 +1,45 @@
-.form {
-    margin: 20px;
-  }
-  
-  .form input {
-    display: block;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    width: 100%;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:ital,wght@0,300..700;1,300..700&display=swap');
+
+:root {
+  --floral-white: #fffcf2ff;
+  --timberwolf: #ccc5b9ff;
+  --black-olive: #403d39ff;
+  --eerie-black: #252422ff;
+  --flame: #eb5e28ff;
+}
+
+body {
+  font-family: 'Spline Sans Mono';
+  font-size: large;
+}
+
+.container {
+  background-color: var(--floral-white);
+  color: var(--black-olive);
+}
+
+.form-label {
+  color: var(--eerie-black);
+}
+
+.form-control {
+  border-color: var(--timberwolf);
+}
+
+.form-control.is-invalid {
+  border-color: var(--flame);
+}
+
+.btn-primary {
+  background-color: var(--flame);
+  border-color: var(--flame);
+}
+
+.btn-primary:hover {
+  background-color: var(--black-olive);
+  border-color: var(--black-olive);
+}
+
+.invalid-feedback {
+  color: var(--flame);
+}
