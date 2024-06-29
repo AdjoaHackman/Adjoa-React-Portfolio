@@ -9,7 +9,7 @@ const Nav = () => {
                 <Link className="flex-sm-fill text-md-center nav-link" aria-current="page" to="/portfolio">Portfolio</Link>
                 <a className="flex-sm-fill text-md-center nav-link" href="https://www.linkedin.com/in/adjoa-hackman-37102050/"
                     target="_blank">Contact Me</a>
-                <Link className="flex-sm-fill text-md-center nav-link" to="#">Resume</Link>
+                <a className="flex-sm-fill text-md-center nav-link" href="https://github.com/AdjoaHackman" target="_blank">Resume</a>
             </nav>
         </>
     )

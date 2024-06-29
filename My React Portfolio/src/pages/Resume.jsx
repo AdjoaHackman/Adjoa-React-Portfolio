@@ -1,4 +1,4 @@
-const ContactMe = () => {
+const Resume = () => {
     return (
         <>
         </>
@@ -6,4 +6,4 @@ const ContactMe = () => {
       
 }
 
-export default ContactMe;
+export default Resume;
