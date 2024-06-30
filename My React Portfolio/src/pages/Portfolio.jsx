@@ -7,7 +7,7 @@ import Reading from "../assets/reading-roundtable screenshot2.png";
 import Cattzeria from "../assets/Catzzeria Screenshot.png";
 import Project from "../components/Project";
 import React from "react";
-import '../assets/portfolio.css';
+import './portfolio.css';
 
 const Portfolio = () => {
     return (

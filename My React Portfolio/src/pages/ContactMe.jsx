@@ -6,7 +6,6 @@ const ContactMe = () => {
         <ContactForm/>
         </>
     )
-      
 }
 
 export default ContactMe;

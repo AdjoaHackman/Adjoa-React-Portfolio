@@ -7,6 +7,7 @@ import Portfolio from './pages/Portfolio.jsx';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './components/Form/styles.css';
+import './index.css'
 
 const router = createBrowserRouter([
   {

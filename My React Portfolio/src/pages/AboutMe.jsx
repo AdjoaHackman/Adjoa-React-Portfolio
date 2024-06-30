@@ -3,7 +3,7 @@ import Profile from "../assets/2FEE48C8-8869-480A-A5DB-7E1A5E20402A.jpeg"
 const AboutMe = () => {
     return (
         <>
-            <body className="d-flex justify-content-center">
+            <div className="d-flex justify-content-center page_container">
                 <main className="container row">
                     <div className="col-6">
                         <img src={Profile} alt="Profile Picture" className="img-thumbnail"/>
@@ -16,7 +16,7 @@ const AboutMe = () => {
                             and potentially transition into a developer role.</p>
                     </div>
                 </main>
-            </body>
+            </div>
         </>
     )
 }
