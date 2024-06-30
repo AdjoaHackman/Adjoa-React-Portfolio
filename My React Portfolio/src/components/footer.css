@@ -1,8 +1,11 @@
 
 .footer {
-    background-color: var(--black-olive);
+    background-color: var (--floral-white) ;
     padding: 20px 0;
     text-align: center;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
   }
   
   .footer .container {
@@ -13,7 +16,7 @@
   
   .footer a {
     margin: 0 10px;
-    color: var(--floral-white);
+    color: var(--eerie-black);
     text-decoration: none;
     transition: color 0.3s ease;
   }

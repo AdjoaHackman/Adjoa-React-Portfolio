@@ -4,7 +4,7 @@ const Project = ({portfolioURL, imgSrc, altText, styleW, title, githubURL, descr
         <a href= {portfolioURL} target="_blank">
             <img src={imgSrc}
                 alt={altText} style={{ width: styleW }} /></a>
-        <h3>{title} <a href= {githubURL} target="_blank"></a></h3>
+        <h3><a href= {githubURL} target="_blank"> {title} GitHub</a></h3>
         <p>{description}</p>
     </div>
 

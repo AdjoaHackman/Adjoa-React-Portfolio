@@ -11,7 +11,7 @@ import './portfolio.css';
 
 const Portfolio = () => {
     return (
-        <div className="main">
+        <div className="main mt-3 mb-8">
 
             <div className="gallery">
                 <div className="container-lg">
@@ -29,7 +29,7 @@ const Portfolio = () => {
                             altText={"A picture of my finished Horiseon assignment"}
                             styleW={"50%"}
                             title={"Horiseon"}
-                            github={"https://github.com/AdjoaHackman/hmtl-css-refactoring-project-1"}
+                            githubURL={"https://github.com/AdjoaHackman/hmtl-css-refactoring-project-1"}
                             description={"Horiseon - my first engineering bootcamp assignment."}
                         />
                         {/* <div className="col">
@@ -45,7 +45,7 @@ const Portfolio = () => {
                             altText={"A picture of my finished password generator assignment"}
                             styleW={"100%"}
                             title={"Password Generator"}
-                            github={"https://github.com/AdjoaHackman/Adjoa-s-Password-Generator"}
+                            githubURL={"https://github.com/AdjoaHackman/Adjoa-s-Password-Generator"}
                             description={"A password generator."}
                         />
 
@@ -63,7 +63,7 @@ const Portfolio = () => {
                             altText={"A picture of my finished timed quiz assignment"}
                             styleW={"100%"}
                             title={"Timed Quiz"}
-                            github={"https://github.com/AdjoaHackman/Adjoa-s-Timed-Quiz"}
+                            githubURL={"https://github.com/AdjoaHackman/Adjoa-s-Timed-Quiz"}
                             description={"A Timed Quiz on the fundamentals of JavaScript."}
                         />
 
@@ -81,7 +81,7 @@ const Portfolio = () => {
                             altText={"A picture of my completed Daily Planner"}
                             styleW={"100%"}
                             title={"Daily Planner"}
-                            github={"https://github.com/AdjoaHackman/Adjoa-s-Calendar"}
+                            githubURL={"https://github.com/AdjoaHackman/Adjoa-s-Calendar"}
                             description={"A daily planner"}
                          />
 
@@ -97,7 +97,7 @@ const Portfolio = () => {
                             altText={"A picture of my completed weather dashboard assignment"}
                             styleW={"100%"}
                             title={"Weather Dashboard"}
-                            github={"https://github.com/AdjoaHackman/My-Weather-Dashboard-"}
+                            githubURL={"https://github.com/AdjoaHackman/My-Weather-Dashboard-"}
                             description={"Weather dashboard with the ability to see what you have searched and the weather for the next 5 days"}
                          />
 
@@ -112,7 +112,7 @@ const Portfolio = () => {
                             altText={"A picture of my first team project, Cattzeria"}
                             styleW={"100%"}
                             title={"Catzzeria"}
-                            github={"https://github.com/alfwall/catzzeria"}
+                            githubURL={"https://github.com/alfwall/catzzeria"}
                             description={"Catzzeria, a clicker game! My first group project."}
                          />
 
@@ -128,7 +128,7 @@ const Portfolio = () => {
                             altText={"A picture of my second team project, Reading Roundtable"}
                             styleW={"100%"}
                             title={"Reading Roundtable"}
-                            github={"https://github.com/AdjoaHackman/reading-roundtable"}
+                            githubURL={"https://github.com/AdjoaHackman/reading-roundtable"}
                             description={"Reading Roundtable, a way to search for books! My second group project."}
                          />
                             </div>
