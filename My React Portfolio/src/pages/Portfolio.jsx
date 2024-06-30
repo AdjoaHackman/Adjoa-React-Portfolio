@@ -11,11 +11,10 @@ import './portfolio.css';
 
 const Portfolio = () => {
     return (
-        <div className="main mt-3 mb-8">
-
+        <div className="main">
             <div className="gallery">
-                <div className="container-lg">
-                    <div className="row text-center">
+                <div className="container-lg row-gap-4">
+                    <div className="row text-center column-gap-4">
                         {/* <div className="col">
                             <a href="https://adjoahackman.github.io/hmtl-css-refactoring-project-1/" target="_blank"><img
                                 src={Horiseon}
@@ -68,7 +67,7 @@ const Portfolio = () => {
                         />
 
                         <div className="container-lg">
-                            <div className="row">
+                            <div className="row column-gap-5">
                                 {/* <div className="col">
                                     <a href="https://adjoahackman.github.io/Adjoa-s-Calendar/" target="_blank"><img src={Planner}
                                         alt="A picture of my finished Daily Planner" style={{ width: "100%" }} /></a>

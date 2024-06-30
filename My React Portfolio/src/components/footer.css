@@ -1,6 +1,6 @@
 
 .footer {
-    background-color: var (--floral-white) ;
+    background-color: var(--floral-white) ;
     padding: 20px 0;
     text-align: center;
     position: fixed;
