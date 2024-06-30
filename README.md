@@ -1,8 +1,9 @@
 # My-React-Portfolio
 
 # Description
-This assignment required me to create my personal portfolio of my coding projects while using React.
+This assignment required me to re-create and update my personal engineering portfolio of my coding projects while using React.
 
+![My React Portfolio](./My%20React%20Portfolio/src/assets/Complete%20React%20Screenshot.png)
 
 # Table of Contents
 - [Installation](#installation)
@@ -16,7 +17,7 @@ This assignment required me to create my personal portfolio of my coding project
 There is no additional software required for this assignment.
 
 # Usage
-To use this code, go to the GitHub link. 
+To view the code used for this assignment, go to the [GitHub](https://github.com/AdjoaHackman) link. 
 
 # Contribution
 If you are interested in contributing to the project, which was created as an assignment for the UC Berkeley Full Stack coding bootcamp, please refer to the Questions section to reach out to me. 
