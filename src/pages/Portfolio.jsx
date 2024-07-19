@@ -6,6 +6,7 @@ import Weather from "../assets/Weather Dashboard Screenshot.png";
 import Reading from "../assets/reading-roundtable screenshot2.png";
 import Cattzeria from "../assets/Catzzeria Screenshot.png";
 import Project from "../components/Project";
+import eCoffee from "../assets/E-Coffee Deployed Screenshot.jpg";
 import React from "react";
 import './portfolio.css';
 
@@ -66,6 +67,16 @@ const Portfolio = () => {
                             description={"A Timed Quiz on the fundamentals of JavaScript."}
                         />
 
+                        <Project
+                            portfolioURL={"https://e-coffee-7d6cb3a5dc4c.herokuapp.com/"}
+                            imgSrc={eCoffee}
+                            altText={"E-Coffee, an e-commerce site"}
+                            styleW={"100%"}
+                            title={"E-Coffee"}
+                            githubURL={"https://github.com/lelisiario/E-Coffee"}
+                            description={"My third group project, an e-commerce site, E-Coffee"}
+                        />
+
                         <div className="container-lg">
                             <div className="row column-gap-5">
                                 {/* <div className="col">
@@ -74,15 +85,15 @@ const Portfolio = () => {
                                     <h3>Daily Planner</h3>
                                     <p>A daily planner</p>
                                 </div> */}
-                         <Project
-                            portfolioURL={"https://adjoahackman.github.io/Adjoa-s-Calendar/"}
-                            imgSrc={Planner}
-                            altText={"A picture of my completed Daily Planner"}
-                            styleW={"100%"}
-                            title={"Daily Planner"}
-                            githubURL={"https://github.com/AdjoaHackman/Adjoa-s-Calendar"}
-                            description={"A daily planner"}
-                         />
+                                <Project
+                                    portfolioURL={"https://adjoahackman.github.io/Adjoa-s-Calendar/"}
+                                    imgSrc={Planner}
+                                    altText={"A picture of my completed Daily Planner"}
+                                    styleW={"100%"}
+                                    title={"Daily Planner"}
+                                    githubURL={"https://github.com/AdjoaHackman/Adjoa-s-Calendar"}
+                                    description={"A daily planner"}
+                                />
 
                                 {/* <div className="col">
                                     <a href="https://adjoahackman.github.io/My-Weather-Dashboard-/" target="_blank"><img src={Weather}
@@ -90,30 +101,30 @@ const Portfolio = () => {
                                     <h3>Weather Dashboard</h3>
                                     <p>Weather dashboard with the ability to see what you have searched and the weather for the next 5 days</p>
                                 </div> */}
-                        <Project
-                            portfolioURL={"https://adjoahackman.github.io/My-Weather-Dashboard-/"}
-                            imgSrc={Weather}
-                            altText={"A picture of my completed weather dashboard assignment"}
-                            styleW={"100%"}
-                            title={"Weather Dashboard"}
-                            githubURL={"https://github.com/AdjoaHackman/My-Weather-Dashboard-"}
-                            description={"Weather dashboard with the ability to see what you have searched and the weather for the next 5 days"}
-                         />
+                                <Project
+                                    portfolioURL={"https://adjoahackman.github.io/My-Weather-Dashboard-/"}
+                                    imgSrc={Weather}
+                                    altText={"A picture of my completed weather dashboard assignment"}
+                                    styleW={"100%"}
+                                    title={"Weather Dashboard"}
+                                    githubURL={"https://github.com/AdjoaHackman/My-Weather-Dashboard-"}
+                                    description={"Weather dashboard with the ability to see what you have searched and the weather for the next 5 days"}
+                                />
 
                                 {/* <div className="col">
                                     <a href="https://alfwall.github.io/catzzeria/" target="_blank"><img src={Cattzeria} alt="A picture of my first team project, Cattzeria" style={{ width: "100%" }} /></a>
                                     <h3>Catzzeria!</h3>
                                     <p>Catzzeria, a clicker game! My first group project.</p>
                                 </div> */}
-                        <Project
-                            portfolioURL={"https://alfwall.github.io/catzzeria/"}
-                            imgSrc={Cattzeria}
-                            altText={"A picture of my first team project, Cattzeria"}
-                            styleW={"100%"}
-                            title={"Catzzeria"}
-                            githubURL={"https://github.com/alfwall/catzzeria"}
-                            description={"Catzzeria, a clicker game! My first group project."}
-                         />
+                                <Project
+                                    portfolioURL={"https://alfwall.github.io/catzzeria/"}
+                                    imgSrc={Cattzeria}
+                                    altText={"A picture of my first team project, Cattzeria"}
+                                    styleW={"100%"}
+                                    title={"Catzzeria"}
+                                    githubURL={"https://github.com/alfwall/catzzeria"}
+                                    description={"Catzzeria, a clicker game! My first group project."}
+                                />
 
                                 {/* <div className="col">
                                     <a href="https://reading-roundtable-a1d1097f86e5.herokuapp.com/login" target="_blank"><img src={Reading} alt="A picture of my second team project, Reading Roundtable" style={{ width: "100%" }} /></a>
@@ -121,15 +132,15 @@ const Portfolio = () => {
                                     <p>Reading Roundtable, a way to search for books! My second group project.</p>
                                 </div> */}
 
-                        <Project
-                            portfolioURL={"https://reading-roundtable-a1d1097f86e5.herokuapp.com/login"}
-                            imgSrc={Reading}
-                            altText={"A picture of my second team project, Reading Roundtable"}
-                            styleW={"100%"}
-                            title={"Reading Roundtable"}
-                            githubURL={"https://github.com/AdjoaHackman/reading-roundtable"}
-                            description={"Reading Roundtable, a way to search for books! My second group project."}
-                         />
+                                <Project
+                                    portfolioURL={"https://reading-roundtable-a1d1097f86e5.herokuapp.com/login"}
+                                    imgSrc={Reading}
+                                    altText={"A picture of my second team project, Reading Roundtable"}
+                                    styleW={"100%"}
+                                    title={"Reading Roundtable"}
+                                    githubURL={"https://github.com/AdjoaHackman/reading-roundtable"}
+                                    description={"Reading Roundtable, a way to search for books! My second group project."}
+                                />
                             </div>
                         </div></div>
                 </div>
